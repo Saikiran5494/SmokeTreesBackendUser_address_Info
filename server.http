@@ -1,0 +1,26 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+
+{
+    "username": "Vamshi",
+    "street": "Statue",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "zip_code": "506006"
+}
+
+###
+GET http://localhost:3000/all_users
+
+###
+GET http://localhost:3000/users_with_addresses
+
+###
+DELETE http://localhost:3000/deleteUser/4
+
+###
+GET http://localhost:3000/all_address
+
+###
+DELETE http://localhost:3000/deleteAddress/7a0d427a-7d09-4c5d-8fb6-bc6adb616c8a
